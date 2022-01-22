@@ -137,20 +137,20 @@
 
     .img_cen:active {
 
-        transform: scale(2.5) translate(0rem, 1rem);;
+        transform: scale(2.5) translate(0rem, 1rem);
         transition: all 500ms ease-in-out;
 
    }
    .img_izq:active {
 
-    transform: scale(2.5) translate(2.5rem, 1rem);;
+    transform: scale(2.5) translate(2.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
 
    .img_der:active {
 
-    transform: scale(2.5) translate(-2.5rem, 1rem);;
+    transform: scale(2.5) translate(-2.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
@@ -353,20 +353,20 @@
 
     .img_cen:active {
 
-        transform: scale(2.5) translate(0rem, 1rem);;
+        transform: scale(2.5) translate(0rem, 1rem);
         transition: all 500ms ease-in-out;
 
    }
    .img_izq:active {
 
-    transform: scale(2.5) translate(3.5rem, 1rem);;
+    transform: scale(2.5) translate(3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
 
    .img_der:active {
 
-    transform: scale(2.5) translate(-3.5rem, 1rem);;
+    transform: scale(2.5) translate(-3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
@@ -560,20 +560,20 @@
 
     .img_cen:active {
 
-        transform: scale(2) translate(0rem, 1rem);;
+        transform: scale(2) translate(0rem, 1rem);
         transition: all 500ms ease-in-out;
 
    }
    .img_izq:active {
 
-    transform: scale(2) translate(3.5rem, 1rem);;
+    transform: scale(2) translate(3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
 
    .img_der:active {
 
-    transform: scale(2) translate(-3.5rem, 1rem);;
+    transform: scale(2) translate(-3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
@@ -806,20 +806,20 @@
 
  .img_cen:active {
 
-        transform: scale(1.8) translate(0rem, 1rem);;
+        transform: scale(1.8) translate(0rem, 1rem);
         transition: all 500ms ease-in-out;
 
    }
  .img_izq:active {
 
-    transform: scale(1.8) translate(3.5rem, 1rem);;
+    transform: scale(1.8) translate(3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
 
  .img_der:active {
 
-    transform: scale(1.8) translate(-3.5rem, 1rem);;
+    transform: scale(1.8) translate(-3.5rem, 1rem);
     transition: all 500ms ease-in-out;
 
    }
