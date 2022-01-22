@@ -1,6 +1,6 @@
 @font-face {
     font-family: typewriter;
-    src: url("./assets/img/typewriter.ttf") format("truetype"); 
+    src: url("./../assets/img/typewriter.ttf") format("truetype"); 
     /*tuve que agregar una fuente local porque no lo encontraba en google font */
 }
 
@@ -10,17 +10,12 @@
     box-sizing: border-box;
     font-family: typewriter;    
     text-decoration: none; 
-    list-style-type: none;
-    
-          
+    list-style-type: none;          
 }
 
+/* ---------------------------------VISTA MÓVIL-------------------------------- */
 
-/* ------------------VISTA MÓVIL-------------------------------- */
-
-@media screen and (max-width:576px) {
-    
-    
+@media screen and (max-width:576px) {    
    
 /*------------------header mobile------------*/
     .header {
@@ -28,8 +23,6 @@
         width: 100%;
         background-color: black;
         padding: 0;
-      
-
         
      }
      
@@ -43,9 +36,7 @@
         width: 27%; 
         padding: 0;
         
-     }
-    
-    
+     }    
     
     .header__titulo a {
     
@@ -69,11 +60,7 @@
          color: rgb(201, 200, 200);
     
     }
-    
-    
 
-
-    
     /*----------navbar movil----------*/
 
 #nav {
@@ -81,8 +68,7 @@
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: black;
-    
+    background-color: black;    
 }
 
 .navbar-nav  {
@@ -92,8 +78,6 @@
     text-align: center;
     
 }
-
-
 
 .button_nav {
     width: 100%;
@@ -107,15 +91,12 @@
 }
 
 .navbar a {
-
     
     text-transform: uppercase;
 
     color: rgb(131, 127, 124);
     
-    font-size: 1.5rem;
-    
-    
+    font-size: 1.5rem;    
 
     transition: all 150ms ease-in-out;
 
@@ -139,9 +120,7 @@
         padding: 0.2rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.932);
-        
-    
-    
+           
     }
     
     .main__fotoinicio {
@@ -160,8 +139,8 @@
         transform: scale(1.25);
 
    }
-     
-    .main__nosotros {
+     /*estilos para las proximas paginas*/
+    /* .main__nosotros {
         
         text-align: left;
     }
@@ -188,27 +167,28 @@
     .main__contacto form {
         text-align: left;
             
-    }
-    
+    } */
 
-    
-    /*------------footer mobile-----------*/
+    /*-------------------footer mobile---------------------*/
 
 .footer {
     width: 100%;
     color: rgb(131, 127, 124);
     background-color: black;
-    padding: 2rem 0rem;
-    
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
      
 }
 
-
+.footer_centrado {
+    width: 90%;
+}
 
 .footer__contacto {
     
     padding: 0.3rem;
-    width: 100%;
+   
 }
 
 .footer__redes a{
@@ -219,7 +199,10 @@
     width: 100%;
 }
 
-.footer__ubicacion fieldset{
+.footer__redes li {
+    line-height: 2rem;
+}
+.footer__ubicacion {
     padding: 0.8rem;
     width: 100%;
 }
@@ -228,7 +211,7 @@
 
 /* ------------------VISTA MÓVIL L-------------------------------- */
 
-@media screen and (min-width:577px) and (max-width:767px) {
+@media screen and (min-width:577px) and (max-width:768px) {
     
     
 /*------------------header mobile L------------*/
@@ -238,8 +221,6 @@
         width: 100%;
         background-color: rgb(0, 0, 0);
         padding: 0;
-        
-
         
      }
      
@@ -252,9 +233,7 @@
         width: 35%; 
         padding: 0;
         
-     }
-    
-    
+     }    
     
     .header__titulo a {
     
@@ -279,9 +258,6 @@
     
     }
     
-    
-
-    
     /*----------navbar movil L----------*/
 
 #nav {
@@ -301,8 +277,6 @@
     
 }
 
-
-
 .button_nav {
     width: 100%;
     display: flex;
@@ -310,20 +284,16 @@
 }
 
 .button {
-    width: 90%;
-    
+    width: 90%;    
 }
 
 .navbar a {
-
     
     text-transform: uppercase;
 
     color: rgb(131, 127, 124);
     
-    font-size: 1.5rem;
-    
-    
+    font-size: 1.5rem;    
 
     transition: all 150ms ease-in-out;
 
@@ -347,9 +317,7 @@
         padding: 0.2rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.932);
-        
-    
-    
+            
     }
     
     .main__fotoinicio {
@@ -368,8 +336,9 @@
         transform: scale(1.25);
 
    }
+   /*estilos para las proximas paginas*/
      
-    .main__nosotros {
+    /* .main__nosotros {
         
         text-align: left;
     }
@@ -396,26 +365,22 @@
     .main__contacto form {
         text-align: left;
             
-    }
-    
-
-    
-    /*------------footer mobile L-----------*/
+    } */
+        
+    /*----------------------footer mobile L--------------------*/
 
 .footer {
     width: 100%;
     color: rgb(131, 127, 124);
     background-color: black;
-    
-    padding: 2rem 0rem;
-    
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 0rem;
      
 }
 
-.footer__contacto {
-    
-    padding: 0.3rem;
-    width: 100%;
+.footer_centrado {
+    width: 90%;
 }
 
 .footer__redes a{
@@ -424,20 +389,22 @@
     color: rgb(163, 162, 160);
     padding: 3.5rem 1rem;
     width: 100%;
+    
 }
 
-.footer__ubicacion fieldset{
+.footer__redes  li {
+    line-height: 2.3rem;
+}
+
+.footer__ubicacion {
     padding: 0.8rem;
     width: 100%;
 }
-
 }
 
-/*------------------- VISTA TABLET------------------------------- */
+/*---------------------------------- VISTA TABLET------------------------------- */
 
-@media only screen and (min-width:768px) and (max-width:1023px) {
-    
-   
+@media only screen and (min-width:768px) and (max-width:992px) {   
 
 /*---------------------header tablet----------------*/
 
@@ -445,20 +412,15 @@
         
         width: 100%;
         background-color: black;
-        padding: 0;
+        padding: 0rem;
        
-
     }
     
      #logo {
         height: 9rem; 
         padding: 0;
         
-     }
-    
-    
-    
-    
+     }  
     
     .header__titulo a {
     
@@ -481,9 +443,7 @@
 
     color: rgb(201, 200, 200);
     
-    }
-    
-    
+    }    
     
     /*---------navbar tablet---------------*/
 
@@ -498,7 +458,7 @@
 
 .navbar-nav  {
     
-    padding: 0rem;
+    padding: 0rem ;
 }
 
 .menu_centrado {
@@ -510,7 +470,7 @@
 
 .navbar li {
        
-    padding: 0.1rem 0rem;
+    padding: 0.1rem 0.2rem;
 }
 
 .navbar a {
@@ -533,11 +493,10 @@
 
     background-color: #141414;
 
-    padding: 0.5rem 2rem;
+    padding: 0.3rem;
 
  }   
     
-
    /*---------------main tablet------------------*/
 
     .main {
@@ -568,8 +527,9 @@
         transform: scale(1.3);
 
    }
-     
-    .main__nosotros {
+     /*estilos para las proximas paginas*/
+
+    /* .main__nosotros {
         
         text-align: left;
     }
@@ -607,7 +567,7 @@
 
     .main__contacto textarea {
         width: 80%;
-    }
+    } */
 
     
     /*------------footer tablet-----------*/
@@ -617,23 +577,21 @@
     color: rgb(131, 127, 124);
     background-color: black;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     padding: 1rem 0rem;
     
      
 }
+.footer_centrado {
+    width: 95%;
+}
+
 
 .footer__contacto {
-    width: 33%;
+    padding: 1rem;
+    
 }
 
-.footer__contacto fieldset{
-    
-    padding: 0.8rem;
-    width: 90%;
-    
-}
 
 .footer__contacto li {
     font-size: 70%;
@@ -646,13 +604,10 @@
 .footer__redes {
 
     padding: 1rem 0.2rem;
-    width: 22%;
-    
+ }
 
-}
-
-.footer__redes ul {
-    width: 13rem;
+ .footer__redes ul li {
+    line-height: 1.8rem;
 }
 
 .footer__redes a{
@@ -665,34 +620,17 @@
 }
 
 
-.footer__ubicacion fieldset{
-    padding: 0.5rem;
-    
-    
-}
-
-.footer__ubicacion {
-    
-    width: 20%;
-    
-}
-
-.footer__ubicacion iframe {
-
+.footer__ubicacion{
+    padding: 0.5rem;  
     width: 100%;
-
+    
 }
-
 }
-
-
 
 /*----------------------------- VISTA ESCRITORIO ---------------------------*/
 
-
-
-@media only screen and (min-width:1024px) {
-
+@media only screen and (min-width:992px) {
+/*arranco de 992px para porder trabajar en conjunto con la medida "lg" de bootstrap  */
    
 
 /* -------------header desktop---------- */
@@ -700,24 +638,19 @@
 .header {
     width: 100%;
     background-color: black;
-    padding: 0;
+    padding: 0.5rem 0rem;
     
 }
 
 #logo {
     height: 15rem; 
-    padding: 1rem 0rem;
+    padding: 0;
     
  }
 
-.header__titulo--nosotrxs {
-
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 45rem;
-
-}
+ #titulo {
+     padding: 1rem 0rem;
+ }
 
 .header__titulo a {
 
@@ -742,38 +675,32 @@
 
 }
 
-.header__titulo {
-    
-    display: flex;
-
-    justify-content: space-around;
-
-}
-
-
-
 /*-------------------navbar desktop-------------*/
 
-.navbar {
+#nav {
+    width: 100%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    grid-area: navbar;
+    background-color: rgb(31, 30, 30);
 }
 
-.navbar ul {
+.navbar-nav  {
     
-    padding: 2rem;
+    padding: 0rem;
+}
+
+.menu_centrado {
+        
     display: flex;
     justify-content: space-around;
-    background-color: rgb(31, 30, 30);
-    text-align: center;
-    
+        
 }
 
 .navbar li {
     
     display: inline-block;
+    padding: 0.1rem 1.1rem;
       
 }
 
@@ -784,9 +711,9 @@
 
     color: rgb(131, 127, 124);
     
-    font-size: 1.5rem;
+    font-size: 2rem;
     
-    padding: 1.1rem;
+    padding: 1rem;
 
     transition: all 150ms ease-in-out;
 
@@ -797,7 +724,7 @@
 
     background-color: #141414;
 
-    padding: 1.8rem 3.8rem;
+    padding: 1.1rem ;
 
  }   
     
@@ -805,13 +732,13 @@
 /*--------------main desktop----------------*/
 
 .main {
-    background-image: url("img/logo.jpg") ;
+    width: 100%;
+    background-image: url("./../assets/img/logo.jpg") ;
     background-size: cover;
     padding: 3rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.932);
-    grid-area: main;
-
+    
 }
 
 .main__fotoinicio {
@@ -831,7 +758,9 @@
 
 }
  
-.main__nosotros {
+/*estilos para las proximas paginas*/
+
+/* .main__nosotros {
     
     text-align: left;
 }
@@ -858,30 +787,43 @@
     text-align: left;
     
 
-}
+} */
 
 /*------------footer desktop-----------*/
 
 .footer {
+    width: 100%;
     color: rgb(131, 127, 124);
     background-color: black;
     display: flex;
-    justify-content: space-around;
-    padding: 1.8rem;
-    grid-area: footer;
+    justify-content: center;
+    padding: 1rem;
+    
      
 }
 
-.footer__contacto fieldset{
-    padding: 1.3rem;
-    width: 33%;
+.footer_centrado {
+    width: 90%;
+}
+
+
+.footer__contacto {
+    padding: 0rem;
+    
+}
+
+.footer__contacto li {
+    font-size: 90%;
 }
 
 .footer__redes {
 
     padding: 1rem 2rem;
-    width: 33%;
+    
 
+}
+.footer__redes li {
+    line-height: 2rem;
 }
 
 .footer__redes a{
@@ -891,9 +833,9 @@
     
 }
 
-.footer__ubicacion fieldset{
-    padding: 1.8rem;
-    width: 33%;
+.footer__ubicacion{
+    padding: 1rem;
+    width: 100%;
 }
     
     
