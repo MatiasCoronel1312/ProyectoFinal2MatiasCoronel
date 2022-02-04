@@ -536,7 +536,7 @@
     .main {
         width: 100%;
         background-image: url("./../assets/img/logo.jpg") ;
-        background-size: cover;
+        background-size: contain;
         padding: 1rem 0.2rem;
         text-align: center;
         color: rgba(255, 255, 255, 0.932);
@@ -784,7 +784,7 @@
 .main {
     width: 100%;
     background-image: url("./../assets/img/logo.jpg") ;
-    background-size: cover;
+    background-size: contain;
     padding: 3rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.932);
