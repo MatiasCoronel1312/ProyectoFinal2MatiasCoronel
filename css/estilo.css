@@ -1,7 +1,7 @@
 @font-face {
     font-family: typewriter;
-    src: url("./../assets/font/typewriter.otf") format("truetype"); 
-    /*tuve que agregar una fuente local porque no lo encontraba en google font */
+    src: url("https://matiascoronel1312.github.io/ProyectoFinal2MatiasCoronel/assets/font/Typewriter.ttf") format("truetype") , url("./../assets/font/Typewriter.otf") format("truetype"); 
+    
 }
 
 *{
@@ -33,7 +33,7 @@
      }
 
      #logo {
-        width: 27%; 
+        width: 35%; 
         padding: 0;
         
      }    
@@ -443,15 +443,25 @@
         
         width: 100%;
         background-color: black;
-        padding: 0rem;
+        padding: 0.5rem 0rem;
        
     }
     
      #logo {
-        height: 9rem; 
+        height: 10rem; 
         padding: 0;
+        object-fit: cover;
         
      }  
+
+     #titulo {
+        padding: 1rem 0rem;
+        
+    }
+
+    .header__titulo--perfiles {
+        object-fit: cover;
+    }
     
     .header__titulo a {
     
@@ -688,14 +698,19 @@
 }
 
 #logo {
-    height: 15rem; 
+    height: 13rem; 
     padding: 0;
+    object-fit: cover;
     
  }
 
  #titulo {
      padding: 1rem 0rem;
  }
+
+ .header__titulo--perfiles {
+    object-fit: cover;
+}
 
 .header__titulo a {
 
