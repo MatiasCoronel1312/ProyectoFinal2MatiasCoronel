@@ -1,6 +1,6 @@
 @font-face {
     font-family: typewriter;
-    src: url("./../assets/img/typewriter.ttf") format("truetype"); 
+    src: url("./../assets/font/typewriter.otf") format("truetype"); 
     /*tuve que agregar una fuente local porque no lo encontraba en google font */
 }
 
@@ -154,8 +154,7 @@
     transition: all 500ms ease-in-out;
 
    }
-     /*estilos para las proximas paginas*/
-    /* .main__nosotros {
+      .main__nosotros {
         
         text-align: left;
     }
@@ -182,7 +181,7 @@
     .main__contacto form {
         text-align: left;
             
-    } */
+    } 
 
     /*-------------------footer mobile---------------------*/
 
@@ -370,9 +369,7 @@
     transition: all 500ms ease-in-out;
 
    }
-   /*estilos para las proximas paginas*/
-     
-    /* .main__nosotros {
+    .main__nosotros {
         
         text-align: left;
     }
@@ -399,7 +396,7 @@
     .main__contacto form {
         text-align: left;
             
-    } */
+    } 
         
     /*----------------------footer mobile L--------------------*/
 
@@ -577,9 +574,7 @@
     transition: all 500ms ease-in-out;
 
    }
-     /*estilos para las proximas paginas*/
-
-    /* .main__nosotros {
+      .main__nosotros {
         
         text-align: left;
     }
@@ -617,7 +612,7 @@
 
     .main__contacto textarea {
         width: 80%;
-    } */
+    } 
 
     
     /*------------footer tablet-----------*/
@@ -824,9 +819,7 @@
 
    }
  
-/*estilos para las proximas paginas*/
-
-/* .main__nosotros {
+ .main__nosotros {
     
     text-align: left;
 }
@@ -853,7 +846,7 @@
     text-align: left;
     
 
-} */
+} 
 
 /*------------footer desktop-----------*/
 
